@@ -31,7 +31,7 @@ const connect = function () {
     // conn.write('Move: up');
   });
   conn.on("data", (data) => {
-    // code that does something when the connection is first established
+    // code that does something when receiving data
     console.log("incoming data:", data);
   });
 
